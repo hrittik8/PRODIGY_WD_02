@@ -11,9 +11,7 @@ Dark/Light Mode Toggle: A dynamic theme switcher allows users to toggle between 
 
 **Visual Styling: A modern UI with glowing circular elements, button animations, and a high-contrast layout enhances usability.**
 
-Sound & Vibration Feedback: Each lap triggers a beep sound and short device vibration (if supported), enhancing interaction.
-
-**Responsive Layout: The layout is optimized for desktops but can be easily adapted for mobile responsiveness.**
+Responsive Layout: The layout is optimized for desktops but can be easily adapted for mobile responsiveness.
 
 **STOPWATCH HOME-PAGE**
 <img width="1899" height="1079" alt="Screenshot 2025-07-20 201800" src="https://github.com/user-attachments/assets/2f58390a-ea18-4a0a-ae8d-97a1c2645e24" />
