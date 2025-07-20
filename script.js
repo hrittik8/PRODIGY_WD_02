@@ -90,12 +90,12 @@ const lap = () => {
   clearBtn.classList.remove("laptime");
 
   // 🔊 Sound effect
-  const beep = new Audio("https://www.soundjay.com/buttons/sounds/beep-07.mp3");
+  const beep = new Audio("https://freesound.org/data/previews/522/522899_11572390-lq.mp3");
   beep.play();
 
   // 📳 Vibration
   if ("vibrate" in navigator) {
-    navigator.vibrate(100);
+    navigator.vibrate([100, 50, 100]);
   }
 
   // 💾 Save to localStorage
