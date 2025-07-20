@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stop-Watch</title>
+  <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/stopwatch-3701359-3089846.png?f=webp" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  
+  <button id="themeToggle" title="Toggle Theme">🌓</button>
+
+  <div class="container">
+    
+    <div class="watch">
+      <div class="outer-circle">
+        <div class="inner-circle">
+          <span class="text min">00 :</span>
+          <span class="text sec">&nbsp;00 :</span>
+          <span class="text msec">&nbsp;00</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+      <button class="resetbtn btn visibility" aria-label="Reset Stopwatch">Reset</button>
+      <button class="playbtn btn" aria-label="Start or Pause Stopwatch">Start</button>
+      <button class="lapbtn btn visibility" aria-label="Record Lap Time">Lap</button>
+    </div>
+
+    <!-- Lap List -->
+    <button class="clearbtn laptime" aria-label="Clear Lap History">Clear</button>
+    <ul class="laps"></ul>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js" defer></script>
+</body>
+</html>
