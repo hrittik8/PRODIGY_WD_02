@@ -90,7 +90,7 @@ const lap = () => {
   clearBtn.classList.remove("laptime");
 
   // 🔊 Sound effect
-  const beep = new Audio("https://freesound.org/data/previews/522/522899_11572390-lq.mp3");
+  const beep = new Audio("https://pixabay.com/sound-effects/mechanical-stopwatch-ticking-30-seconds-364932/");
   beep.play();
 
   // 📳 Vibration
